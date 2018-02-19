@@ -1,0 +1,255 @@
+/* style.css */
+
+body{
+  background-color: rgb(255,250,250);
+  background-size: cover;
+  color: black;
+  font-size: 25px;
+  font-family: Allerta Stencil;
+  text-align: center;
+  font-weight: lighter;
+}
+h1{
+  font-family: Century Gothic;
+  color: white;
+  font-weight: bold lighter;
+  font-size: 130px;
+}
+h2 {
+  font-family: Century Gothic;
+  color: White;
+  font-weight: bold italic ;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: Century Gothic;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: Century Gothic;
+  color: Black;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h5 {
+  font-family: Century Gothic;
+  color: #F8F404;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+  font-family: Century Gothic
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+p {
+  color : white;
+  font-family: century Gothic;
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.card {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+#header{
+  text-align: center;
+  background-image: url("images/fail.jpg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#header h1 {
+  color: white;
+  font-size: 70px;
+}
+#header p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  margin-top: 20px;
+  background: rgb(40, 248, 248);
+  color: #000000;
+  
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+.btn-1 {
+  color: white;
+  padding: 10px;
+  border-radius: 0px;
+padding-top: 10px;
+  font-weight: bold;
+  background: rgb(40, 248, 248);
+  transition: background 0.3s ease;
+}
+.btn-1:hover {
+  opacity: 1;
+  background: #F8F404;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-minimal img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px
+}
+
+.navbar-item3  {
+position: absolute;
+left: 300px;
+font-family: century gothic;
+
+}
+
+.navbar-item2 {
+  position: absolute;
+  left: 1000px;
+  font-family: century gothic;
+}
+
+.navbar-minimal {
+  height: 70px;
+  background: #F8F404;
+  color: #F8F404;
+  box-shadow: 10px 10px 10px #F8F404;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3px
+  margin-bottom : 3px;
+  position : fixed;
+}
+
+.banner-cta {
+  color: white;
+  border: 25px solid #FD11C9;
+  padding: 10px 15px;
+  border-radius: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  opacity: 0,3;
+  background: rgb(40, 248, 248);
+  font-weight: bold;
+  margin-top: 0px;
+   transition: background 0.3s ease;
+}
+
+.banner-cta:hover {
+  opacity: 1;
+  background: #F8F404;
+  text-decoration: none;
+  color: white;
+}
+
+
+.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+  border-radius: 50%;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
+}
+
+
+
+
+
+.centre{
+  text-align: bottom!important;
+  align-content: center !important;
+  margin: auto !important;
+    width: 50% !important;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+.centre p {
+  font-size: 25px !important;
+  font-style: bold !important;
+  text-align: bottom !important;
+}
+
+.centre h3 {
+  font-size: 30px !important;
+  font-style: bold !important;
+  text-align: bottom !important;
+}
+
+.picture {
+  align-items: center;
+  background-position: center !important;
+  background-size: cover !important;
+  height: auto;
+  max-height: 530px;
+  width: 100%;
+}
+
+.text {
+  background-color: rgb(40, 248, 248);
+  border : 15px solid #FD11C9;
+}
